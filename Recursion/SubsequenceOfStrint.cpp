@@ -26,7 +26,7 @@ int keypad( int num,string *output ) {
             output[size*i + j ] = output[size*i + j ] + str[i];
         }
     }
-    return size * i; 
+    return size * i;
 }
 int main()
 {
